@@ -1,4 +1,4 @@
-const app = require('C:/Users/emill/OneDrive/Desktop/projeto/backend/scr/app.js')
+const app = require('C:/Users/emill/OneDrive/Desktop/projeto/backend/src/app.js')
 
 require('dotenv').config();
 

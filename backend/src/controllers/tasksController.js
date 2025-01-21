@@ -1,5 +1,5 @@
 const { request } = require('express');
-const tasksModel = require('../scr/models/tasksModel')
+const tasksModel = require('../src/models/tasksModel')
 
 const getAll =  async (_request, response) => {
     const tasks = await tasksModel.getAll();
