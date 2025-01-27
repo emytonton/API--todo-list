@@ -1,0 +1,117 @@
+
+   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#ADD8E6 ;
+}
+
+main{
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.add-form{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+}
+
+
+input{
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600; 
+} /* utilizado pois tenho controle da quantidade de inputs presentes no meu projeto, por ser um projeto pequeno fiz dessa maneira */
+
+
+button[type = "submit"]{
+    background: #ADD8E6;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+td, th{
+    padding: 10px 15px;
+    border: 1px solid #DDD;
+    text-align: center;
+}
+
+td{
+    color: #333;
+    font-weight: 600;
+
+}
+
+tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+
+select{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #ebebeb;
+}
+
+select:hover {
+    background-color: #DDD;
+}
+
+
+.btn-action{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-action:nth-child(1){
+    background-color: #FFD700;
+    margin-right: 5px;
+}
+
+.btn-action:nth-child(2){
+    background-color: #9370DB;
+}
+

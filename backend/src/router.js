@@ -1,6 +1,6 @@
 const express = require('express');
 
-const tasksController = require('..backend/src/controllers/tasksController.js');
+const tasksController = require('./controllers/tasksController.js');
 const tasksMiddleware = require('C:/Users/emill/OneDrive/Desktop/projeto/backend/src/middlewares/taksMiddleware');
 
 const router = express.Router();
